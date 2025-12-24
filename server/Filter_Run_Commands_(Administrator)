@@ -1,0 +1,12 @@
+
+פקודות עבור הרצת  mitmproxy כמנהל מערכת:
+cd "C:\Users\adiel\OneDrive\Desktop\Project SafeNet\server"
+python -m venv venv
+venv\Scripts\activate
+mitmproxy -s safenet_interceptor.py
+
+פקודה  להרצת שרת :
+ python app.py
+
+ פקודה  להרצת לקוח :
+npm run dev

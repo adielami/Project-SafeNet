@@ -1,0 +1,11 @@
+# React / Node.js garbage
+node_modules/
+build/
+dist/
+.env
+
+# Python garbage
+venv/
+__pycache__/
+*.pyc
+*.log
